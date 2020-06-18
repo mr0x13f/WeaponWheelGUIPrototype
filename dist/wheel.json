@@ -73,8 +73,8 @@
         }
     },
     "s": {
-        "name": "Close",
-        "icon": "icons/close.png",
+        "name": "Window",
+        "icon": "icons/window.png",
         "wheel": {
             "c": {
                 "name": "Close",
@@ -95,6 +95,42 @@
                 "name": "Minimize",
                 "icon": "icons/minimize.png",
                 "launch": "MINIMIZE"
+            },
+            "nw": {
+                "name": "Maximize",
+                "icon": "icons/window.png",
+                "launch": "MAXIMIZE"
+            },
+            "ne": {
+                "name": "Capture",
+                "icon": "icons/photo.png",
+                "wheel": {
+                    "c": {
+                        "name": "Screenshot",
+                        "icon": "icons/photo.png",
+                        "launch": "SCREENSHOT"
+                    },
+                    "ne": {
+                        "name": "Snip",
+                        "icon": "icons/photo.png",
+                        "launch": "SNIP"
+                    },
+                    "e": {
+                        "name": "Start Shadowplay",
+                        "icon": "https://www.agconnect.nl/sites/ag/files/styles/article_main_image/public/2017-11/nvidia_logo_zonder_naam.jpg?itok=81J6ZgU4",
+                        "launch": "START SHADOWPLAY RECORDING"
+                    },
+                    "se": {
+                        "name": "Save Shadowplay",
+                        "icon": "https://www.agconnect.nl/sites/ag/files/styles/article_main_image/public/2017-11/nvidia_logo_zonder_naam.jpg?itok=81J6ZgU4",
+                        "launch": "STOP & SAVE SHADOWPLAY RECORDING"
+                    },
+                    "s": {
+                        "name": "Save Instant Replay",
+                        "icon": "https://www.agconnect.nl/sites/ag/files/styles/article_main_image/public/2017-11/nvidia_logo_zonder_naam.jpg?itok=81J6ZgU4",
+                        "launch": "STOP & SAVE SHADOWPLAY RECORDING"
+                    }
+                }
             }
         }
     },
