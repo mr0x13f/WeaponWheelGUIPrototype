@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <!-- Materialize -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   
+    </head>
+    <body>
+
+        <p class="info">
+            <span class="instructions">Press a mouse button and drag to navigate the menu, let go to confirm.</span>
+            <br><br>
+            Weapon wheel GUI proof of concept,
+            inspired by <a href="https://youtu.be/AItTqnTsVjA" target="_blank">Accursed Farms' video on GUI</a> and optimized for speed.
+            You can find the awful sourcecode on <a href="https://github.com/mr0x13f/WeaponWheelGUIPrototype" target="_blank">GitHub</a>.
+            The idea is that the menu would be bound to something like mouse5,
+            and could be opened anywhere as long there is no fullscreen application running.
+            The size of the circle is tricky to get right.
+            Too small and you can't navigate quickly by flicking,
+            too large and there isn't enough screen space available.
+            This current version is probably on the side of being too large.
+            Maybe fancy mouse teleporting could solve this?
+            If you want to play around with the values yourself,
+            you can clone the GitHub repo and change the values in <b>src/wheel/Wheel.ts</b>.
+            You can change the layout of the wheel by editing <b>dist/wheel.json</b>.
+        </p>
+
+    </body>
+</html>

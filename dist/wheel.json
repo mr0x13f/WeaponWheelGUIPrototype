@@ -1,0 +1,144 @@
+{
+    "n": {
+        "name": "Launch",
+        "icon": "icons/launch.png",
+        "wheel": {
+            "c": {
+                "name": "Search",
+                "icon": "icons/launch.png",
+                "launch": "SEARCH PROGRAM DIALOG"
+            },
+            "n": {
+                "name": "Chrome",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_%282011%29.png",
+                "wheel": {
+                    "c": {
+                        "name": "New chrome tab",
+                        "icon": "https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_%282011%29.png",
+                        "launch": "NEW CHROME TAB"
+                    },
+                    "n": {
+                        "name": "New chrome window",
+                        "icon": "https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_%282011%29.png",
+                        "launch": "NEW CHROME WINDOW"
+                    },
+                    "e": {
+                        "name": "New incognito tab",
+                        "icon": "https://static.thenounproject.com/png/1839272-200.png",
+                        "launch": "NEW INCOGNITO TAB"
+                    },
+                    "w": {
+                        "name": "Bookmarks",
+                        "icon": "",
+                        "wheel": {
+                            
+                        }
+                    }
+                }
+            },
+            "ne": {
+                "name": "VSCode",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png",
+                "launch": "OPEN VSCODE"
+            },
+            "e": {
+                "name": "Explorer",
+                "icon": "https://winaero.com/blog/wp-content/uploads/2019/09/File-Explorer-fluent-icon.png",
+                "launch": "OPEN FILE EXPLORER"
+            },
+            "se": {
+                "name": "CMD",
+                "icon": "https://www.iconhot.com/icon/png/simplexity-file/256/cmd.png",
+                "launch": "OPEN CMD"
+            },
+            "sw": {
+                "name": "Task manager",
+                "icon": "https://winaero.com/blog/wp-content/uploads/2019/03/task-manager-taskmgr-icon-big.png",
+                "launch": "OPEN TASK MANAGER"
+            },
+            "w": {
+                "name": "Favorites",
+                "icon": "https://src.heuristiclab.com/svn/core/branches/PersistenceOverhaul/HeuristicLab.PluginInfrastructure/3.3/Resources/Setup_Install.ico",
+                "wheel": {
+
+                }
+            }
+        }
+    },
+    "e": {
+        "name": "Focus",
+        "icon": "icons/focus.png",
+        "wheel": {
+
+        }
+    },
+    "s": {
+        "name": "Close",
+        "icon": "icons/close.png",
+        "wheel": {
+            "c": {
+                "name": "Close",
+                "icon": "icons/close.png",
+                "launch": "CLOSE"
+            },
+            "e": {
+                "name": "Minimize All",
+                "icon": "icons/minimize.png",
+                "launch": "MINIMIZE ALL"
+            },
+            "s": {
+                "name": "Close All",
+                "icon": "icons/close.png",
+                "launch": "CLOSE ALL"
+            },
+            "w": {
+                "name": "Minimize",
+                "icon": "icons/minimize.png",
+                "launch": "MINIMIZE"
+            }
+        }
+    },
+    "w": {
+        "name": "Selection",
+        "icon": "icons/selection.png",
+        "wheel": {
+            "n": {
+                "name": "Delete",
+                "icon": "icons/delete.png",
+                "launch": "DELETE"
+            },
+            "ne": {
+                "name": "Select All",
+                "icon": "icons/selection.png",
+                "launch": "SELECT ALL"
+            },
+            "se": {
+                "name": "Redo",
+                "icon": "icons/redo.png",
+                "launch": "REDO"
+            },
+            "s": {
+                "name": "Undo",
+                "icon": "icons/undo.png",
+                "launch": "UNDO"
+            },
+            "sw": {
+                "name": "Paste",
+                "icon": "icons/paste.png",
+                "launch": "PASTE"
+            },
+            "w": {
+                "name": "Copy",
+                "icon": "icons/copy.png",
+                "launch": "COPY"
+            },
+            "nw": {
+                "name": "Cut",
+                "icon": "icons/cut.png",
+                "launch": "CUT"
+            }
+        }
+        
+    }
+
+}
